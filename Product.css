@@ -626,6 +626,7 @@ footer .newsletter i {
   }
   .vbox2 img {
     height: 100%;
+  }
 }
 @media (max-width: 1025px) {
   .btn {
@@ -658,18 +659,18 @@ footer .newsletter i {
     font-size: 30px;
   }
   .cart,
-.pay {
-  width: 150px;
+  .pay {
+    width: 150px;
   }
   .vbox1 {
     padding: 50px;
   }
-  .variant{
-    padding:0px;
+  .variant {
+    padding: 0px;
   }
   .col-1 {
     font-size: 12px;
-    flex:40%;
+    flex: 40%;
   }
 }
 @media (max-width: 768px) {
@@ -700,52 +701,59 @@ footer .newsletter i {
     margin-left: 10px;
     width: 120px;
   }
-  .prod1{
-    padding:10px;
+  .prod1 {
+    padding: 10px;
   }
-  .prod2{
-    padding:20px;
+  .prod2 {
+    padding: 20px;
   }
-  .product-box, .prod1, .prod2{
-    height:300px;
+  .product-box,
+  .prod1,
+  .prod2 {
+    height: 300px;
   }
   .prod2 h2 {
     font-size: 20px;
   }
-  .prod2 span, .prod2 span i{
-    font-size:15px;
+  .prod2 span,
+  .prod2 span i {
+    font-size: 15px;
   }
   .prod2 h4 {
-    font-size:70%;
+    font-size: 70%;
   }
-  .counter{
+  .counter {
     margin-bottom: 5px;
   }
-  .counter > div{
-    padding:0px;
-    height:20px;
-    width:10%;
-    font-size:10px;
+  .counter > div {
+    padding: 0px;
+    height: 20px;
+    width: 10%;
+    font-size: 10px;
   }
   .cart,
-.pay {
-  width: 150px;
-  font-size:10px;
+  .pay {
+    width: 150px;
+    font-size: 10px;
   }
-  .prod2 p, .prod2 ul li{
-    font-size:10px;
+  .prod2 p,
+  .prod2 ul li {
+    font-size: 10px;
   }
-  .variant-box, .vbox1, .vbox2, .vbox2 h2{
-    height:250px;
-    font-size:80%;
+  .variant-box,
+  .vbox1,
+  .vbox2,
+  .vbox2 h2 {
+    height: 250px;
+    font-size: 80%;
   }
   .vbox1 {
     padding: 20px;
-    flex:60%;
+    flex: 60%;
   }
-  .vbox2{
-    padding:10px 30px 10px 0;
-    flex:40%;
+  .vbox2 {
+    padding: 10px 30px 10px 0;
+    flex: 40%;
   }
 }
 @media (max-width: 500px) {
@@ -761,25 +769,27 @@ footer .newsletter i {
   .about .text p {
     font-size: 15px;
   }
-  .product-box{
-    height:250px; 
+  .product-box {
+    height: 250px;
   }
-  .prod1{
-    padding:20px;
-    flex:40%;
+  .prod1 {
+    padding: 20px;
+    flex: 40%;
   }
-  .prod1 img{
-    height:75%;
+  .prod1 img {
+    height: 75%;
   }
-  .prod2{
-    height:250px;
+  .prod2 {
+    height: 250px;
     flex: 60%;
   }
-  .prod2 h2, .prod2 span, .prod2 span i{
+  .prod2 h2,
+  .prod2 span,
+  .prod2 span i {
     font-size: 80%;
   }
-  .variant .col-1{
-    font-size:8px;
+  .variant .col-1 {
+    font-size: 8px;
   }
 }
 @media (max-width: 390px) {
@@ -797,9 +807,10 @@ footer .newsletter i {
     padding-left: 10px;
     width: 70px;
   }
-  .purchase .pay a button, .purchase .cart button{
-    flex:50%;
-    width:50px;
+  .purchase .pay a button,
+  .purchase .cart button {
+    flex: 50%;
+    width: 50px;
   }
 }
 @media (max-width: 250px) {
@@ -807,3 +818,4 @@ footer .newsletter i {
     padding: 5px 30px 5px 30px;
   }
 }
+/*End of Responsiveness*/
