@@ -238,7 +238,7 @@ footer .newsletter i,
 .contact .form form label {
   display: inline-block;
 }
-footer h2 {
+.footer h2 {
   font-family: "Orbitron", sans-serif;
   font-size: 400%;
   line-height: 200px;
@@ -928,9 +928,7 @@ header .arrow-down {
 .about .text h3 {
   color: #ffd52d;
 }
-.about .text .fa-asterisk {
-  color: #9a9998;
-}
+
 .about .image-container {
   flex: 50%;
 }
@@ -1123,8 +1121,7 @@ footer .newsletter i {
   .about {
     padding: 10px 20px;
   }
-  .about .text,
-  .reservation .text {
+  .about .text {
     padding: 0 32px 0 0;
   }
   .about .image-container,
@@ -1253,8 +1250,7 @@ footer .newsletter i {
     padding: 20px;
     width: 48%;
   }
-  .about,
-  .reservation {
+  .about {
     padding: 60px 20px;
   }
   .menu {
