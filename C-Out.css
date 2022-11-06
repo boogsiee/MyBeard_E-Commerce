@@ -1,0 +1,164 @@
+/*Global Selectors*/
+body {
+  background-color: #ddd;
+  padding: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/*!Global Selectors*/
+/*Navbar*/
+.navbar {
+  width: 100%;
+  height: 45px;
+  background-color: transparent;
+  padding: 10px 0 10px 50px;
+
+  box-shadow: 0px 9px 34px 1px rgba(219, 200, 200, 1);
+  -webkit-box-shadow: 0px 9px 34px 1px rgba(219, 200, 200, 1);
+  -moz-box-shadow: 0px 9px 34px 1px rgba(219, 200, 200, 1);
+}
+.nav-box {
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-family: "Orbitron", sans;
+}
+/*!Navbar>*/
+.checkout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Orbitron", sans;
+  align-items: center;
+  height: 130vh;
+}
+.login,
+.order-container {
+  width: 400px;
+  background-color: white;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid darkgray;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.logo img {
+  height: 40px;
+}
+.logo {
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+.login {
+  line-height: 5px;
+  text-align: center;
+  font-family: "cabin", sans-serif;
+}
+.login form {
+  margin: 15px;
+}
+.login form input {
+  border-radius: 5px;
+  width: 325px;
+  height: 45px;
+}
+.login a button,
+.order a button {
+  width: 325px;
+  font-size: 15px;
+  font-weight: 600;
+  height: 30px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #ffd52d;
+  cursor: pointer;
+}
+.order a button {
+  width: 375px;
+}
+.login a button:hover,
+.order a button:hover {
+  background-color: #ddd;
+}
+.order-container {
+  font-family: "Cabin", sans-serif;
+  margin-bottom: 20px;
+}
+.item {
+  padding: 2px;
+  display: flex;
+  height: 80px;
+  flex-direction: start;
+}
+.itbox {
+  width: 75px;
+  height: 80px;
+  line-height: 2px;
+}
+.it1 {
+  flex: 1;
+  text-align: center;
+}
+.it1 img {
+  width: 45px;
+  height: 70px;
+}
+.it2 {
+  flex: 2;
+}
+.dc {
+  padding-left: 30px;
+}
+.b1,
+.b2,
+.b3 {
+  display: flex;
+}
+.sub,
+.subpr1,
+.ship,
+.subpr2,
+.total,
+.pr {
+  padding: 5px;
+  flex: 50%;
+}
+
+.subpr1,
+.subpr2,
+.pr {
+  text-align: right;
+}
+.total,
+.pr {
+  font-size: 20px;
+  font-width: 600;
+}
+.payment {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.payment span {
+  border: 0px;
+  flex: 30%;
+  font-size: 10px;
+  width: 115px;
+}
+.modal-body {
+  text-align: center;
+  padding: 50px;
+}
+.btn {
+  width: 375px;
+  font-family: "Cabin", sans-serif;
+  font-weight: 600;
+}
+.btn-close {
+  float: right;
+}
